@@ -32,7 +32,7 @@ for(let i= 0; i< buttons.length; i++){
     buttons[i].addEventListener("click", function(event){
         const soundId = this.dataset.sound;
         const soundElement = document.getElementById(soundId);
-        if(soundElement){
+        if(soundElement ){
             soundElement.play();
         }
     });
